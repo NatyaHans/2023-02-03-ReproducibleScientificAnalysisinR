@@ -297,25 +297,26 @@ Everyone who participates in Carpentries activities is required to conform to th
 <hr/>
 
 
-
+{% comment %}
 Collaborative Notes
 
 We will use the [collaborative document](https://pad.carpentries.org/2023-02-03-ReproducibleScientificAnalysisinR)) for chatting, taking notes, and sharing URLS and code.
 
 [https://pad.carpentries.org/2023-02-03-ReproducibleScientificAnalysisinR](https://pad.carpentries.org/2023-02-03-ReproducibleScientificAnalysisinR)
 
-{% comment %}
+
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
 
 Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
+
 {% if page.collaborative_notes %}
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and code.
 </p>
 <hr/>
 {% endif %}
