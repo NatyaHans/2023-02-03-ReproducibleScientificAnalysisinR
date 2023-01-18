@@ -85,7 +85,7 @@ INTRODUCTION
 
 Edit the general explanatory paragraph below if you want to change
 the pitch.
-{% endcomment %}
+
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
@@ -97,6 +97,20 @@ the pitch.
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
 {% endif %}
+{% endcomment %}
+
+
+The goal of this lesson is to teach novice programmers to write modular code
+and best practices for using R for data analysis. R is commonly used in many
+scientific disciplines for statistical analysis and its array of third-party
+packages. We find that many scientists who come to Software Carpentry workshops
+use R and want to learn more. The emphasis of these materials is to give
+attendees a strong foundation in the fundamentals of R, and to teach best
+practices for scientific computing: breaking down analyses into modular units,
+task automation, and encapsulation.
+
+Note that this workshop will focus on teaching the fundamentals of the
+programming language R, and will not teach statistical analysis.
 
 {% comment %}
 AUDIENCE
