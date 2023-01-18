@@ -297,14 +297,14 @@ Everyone who participates in Carpentries activities is required to conform to th
 <hr/>
 
 
-{% comment %}
-Collaborative Notes
+
+<h2 id="collaborative_notes">Collaborative Notes</h2>
 
 We will use the [collaborative document](https://pad.carpentries.org/2023-02-03-ReproducibleScientificAnalysisinR)) for chatting, taking notes, and sharing URLS and code.
 
 [https://pad.carpentries.org/2023-02-03-ReproducibleScientificAnalysisinR](https://pad.carpentries.org/2023-02-03-ReproducibleScientificAnalysisinR)
 
-
+{% comment %}
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
 
